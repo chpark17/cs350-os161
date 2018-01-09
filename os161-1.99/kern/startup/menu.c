@@ -300,7 +300,7 @@ cmd_dth(int nargs, char **args)
 	(void)nargs;
 	(void)args;
 
-	dbflags = 0xFFFF;
+	dbflags = DBTHREADS;
 
 	return 0;
 }
